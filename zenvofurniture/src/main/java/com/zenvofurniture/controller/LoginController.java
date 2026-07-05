@@ -25,7 +25,7 @@ private final LoginService loginService;
 	
 	@PostMapping("/login")
     public LoginResponse login(@RequestBody LoginRequest loginRequest) {
-        return loginService.login(loginRequest);
+        return loginService.login(loginRequest); 
     }
 	
 	 
